@@ -12,6 +12,10 @@ p {
   margin-top: auto;
 }
 
+p.class {
+  cursor: default;
+}
+
 a {
   color: #4283bb;
 }
