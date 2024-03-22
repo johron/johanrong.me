@@ -4,4 +4,3 @@ curl --fail --location --progress-bar --output "/tmp/mydo.tar" "https://github.c
 tar -xf /tmp/mydo.tar -C $HOME
 chmod +x $HOME/.mydo/bin/mydo
 echo 'export PATH="$HOME/.mydo/bin:$PATH"' >> ~/.bashrc
-echo "Installed mydo successfully."
