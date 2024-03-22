@@ -10,9 +10,6 @@ p {
   font-size: 14px;
   margin-bottom: auto;
   margin-top: auto;
-}
-
-p.class {
   cursor: default;
 }
 
