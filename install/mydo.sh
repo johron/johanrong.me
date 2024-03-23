@@ -18,6 +18,8 @@ to_export='export PATH="$HOME/.mydo/bin:$PATH"'
 if grep -q "$to_export" ~/.bashrc; then
   echo "mydo was already added to \$PATH, skipping"
 else
+  echo "" >> ~/.bashrc
+  echo "#mydo" >> ~/.bashrc
   echo $to_export >> ~/.bashrc
   echo "Added mydo to \$PATH"
 fi
