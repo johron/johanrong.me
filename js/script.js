@@ -10,3 +10,17 @@ document.addEventListener("DOMContentLoaded", function() {
         delay += delay * 0.06; // Adjust the delay as needed
     });
 });
+
+let Anchors = document.getElementsByTagName("a");
+
+for (let i = 0; i < Anchors.length ; i++) {
+    Anchors[i].addEventListener("click",
+        function (event) {
+            event.preventDefault();
+            setTimeout(() => {}, 650)
+            let p = document.getElementById("cmd");
+            p.append("clear")
+            window.location = this.href;
+        },
+        false);
+}
