@@ -12,7 +12,7 @@ chmod +x "$HOME/.mydo/bin/mydo" ||
 rm "/tmp/mydo.tar"
 
 echo "mydo was installed successfully"
-echo "Run 'mydo help' to get started"
+echo "Run 'mydo --help' to get started"
 
 to_export='export PATH="$HOME/.mydo/bin:$PATH"'
 if grep -q "$to_export" ~/.bashrc; then
