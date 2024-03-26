@@ -1,0 +1,7 @@
+{
+    "settings": {
+        "show_time": false,
+        "root": "run"
+    },
+    "run": "http-server"
+}
