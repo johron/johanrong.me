@@ -3,5 +3,5 @@
         "show_time": false,
         "root": "run"
     },
-    "run": "http-server"
+    "run": "npx -g http-server"
 }
