@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const paragraphs = document.querySelectorAll("p");
-    let delay = 250;
+    let delay = 200;
 
     paragraphs.forEach((paragraph, index) => {
         paragraph.style.opacity = "0";
@@ -17,7 +17,7 @@ for (let i = 0; i < Anchors.length ; i++) {
     Anchors[i].addEventListener("click",
         function (event) {
             event.preventDefault();
-            setTimeout(() => {}, 650)
+            setTimeout(() => {}, 500)
             let p = document.getElementById("cmd");
             p.append("clear")
             window.location = this.href;
