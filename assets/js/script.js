@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         setTimeout(() => {
             paragraph.style.opacity = "1";
         }, delay);
-        delay += delay * 0.06; // Adjust the delay as needed
+        delay += delay * 0.03; // Adjust the delay as needed
     });
 });
 
